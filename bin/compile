@@ -11,3 +11,7 @@ status "PWD DIR: $PWD"
 status "BUILD DIR: $BUILD_DIR"
 status "CACHE DIR: $CACHE_DIR"
 status "ENV DIR: $ENV_DIR"
+
+echo "export BUILD_DIR=\$BUILD_DIR"
+echo "export CACHE_DIR=\$CACHE_DIR"
+echo "export ENV_DIR=\$ENV_DIR"
